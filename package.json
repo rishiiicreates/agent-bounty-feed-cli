@@ -1,0 +1,23 @@
+{
+  "name": "agent-bounty-feed-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency client & CLI for Agent Bounty Feed (MCP, earn-now, and x402 payment negotiation)",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "abf": "./index.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "agent-bounty-feed",
+    "mcp",
+    "bounties",
+    "x402",
+    "ai-agents",
+    "web3"
+  ],
+  "author": "dailydollar-bot",
+  "license": "MIT"
+}
